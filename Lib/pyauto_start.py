@@ -24,6 +24,8 @@ def type(text: str, interval=0.0):
     pyperclip.copy(buffer)
 
 
+
+
 pyautogui.hotkey('Win')
 type('блокнот', 0.2)
 pyautogui.keyDown('Enter')
